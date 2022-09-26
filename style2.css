@@ -1,0 +1,108 @@
+
+
+                /* Second Style Pages  */
+.text{
+    /* A revolution of learning with great mentors */
+
+
+width: 530px;
+height: 320.24px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 370;
+font-size: 78.5679px;
+line-height: 85px;
+
+/* Neutral / Black */
+
+color: #212121;
+
+
+/* Inside auto layout */
+margin-left: 30px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+                    /* hero Button */
+.heroButton{
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px;
+gap: 15px;
+
+left: 100px;
+
+width: 200px;
+height: 60px;
+
+/* Primary / Blue */
+
+background: #1C3DEE;
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+} 
+
+                                /* Featured Boxes */
+.featuredboxes{
+    /* Featured Boxes */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 1020px;
+height: 329px;
+left: 420px;
+top: 787px;
+
+}   
+
+                /* For Polar  Elements */
+.polar{
+position: absolute;
+width: 354.1px;
+height: 311.41px;
+left: 88px;
+top: 649.59px;
+
+}
+
+                /*  Peoples For */
+.peoples{
+    /* Ratings */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 231px;
+height: 100.25px;
+left: 70px;
+top: 995.32px;
+}                
+

@@ -1,0 +1,263 @@
+/* 
+*{
+    box-sizing:  border-box;
+    border: 3px solid blue;
+
+} */
+
+
+body{
+    background: #EEEEEE;
+
+    /* border: 2px solid red; */
+
+    width:1400px;
+    Height:1110px;
+    align-self: center;
+}
+
+
+header{
+    width: 1400px;
+    height: 90px;
+    border-bottom: 2px solid rgb(20, 6, 6);
+}
+
+                      /*  For Nav Bar Elements */
+
+.nav-continer{
+
+/* Nav Bar */
+
+width: 100%;
+height: 90px;   /* height:  var(--toolbar-height); */
+
+
+}
+
+
+                 /*   For Nav-items 1 */
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+position: absolute;
+width: 229px;
+height: 66px;
+right: 300px;
+top: 30px;
+}      
+              /* Button 1 Login  */
+.btn1{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 5px;
+gap: 10px;
+
+
+/* width: 80px;
+height: 42px; */
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+                        /* LOGIN */                 
+.login{
+width: 55px;
+height: 28px;
+
+margin-left: 120px;
+font-family: 'PP Pangram Sans';
+font-style: normal;
+font-weight: 550;
+font-size: 21.5135px;
+line-height: 14px;
+
+/* Neutral / Black */
+
+color: #212121;
+text-decoration: none;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}       
+
+
+
+       /*   Button 2 For Signup */
+
+.btn2{
+    /* Buttons */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+   /* padding: 10px;
+  gap: 10px; */
+
+margin-left: 20px;
+
+width: 100px;
+height: 30px;
+
+/* Neutral / Black */
+
+                /* background: #212121; */
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}       
+
+                    /*    For  Navigation     */
+.navigation{
+                    /* Frame 1 */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 70px;
+
+position: absolute;
+width: 600px;
+height: 44px;
+left: 65px;
+top: 30px;
+}
+
+
+                        /*  For GoLearn Text */
+.goLearn{
+    /* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+margin: 40px 50px 0px 25px;
+}                   
+
+                  /*   for Nav-Items */
+.nav-items2{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 55px;
+
+width: 600px;
+height: 8.15px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+margin-left: 165px;
+
+list-style-type: none;
+
+}
+
+                    /* COURSES */
+.courses{
+    
+    width: 50px;
+    height: 22px;
+    
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 19.5135px;
+    line-height: 14px;
+    
+    /* Neutral / Black */
+    
+    color: #212121;
+    text-decoration: none;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+                        /* MENTORS */
+.mentors{
+    width: 50px;
+    height: 22px;
+    
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 19.5135px;
+    line-height: 14px;
+    
+    /* Neutral / Black */
+    
+    color: #212121;
+    text-decoration: none;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+                        /* COMMUNITY */
+.community{
+    width: 50px;
+    height: 22px;
+    
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 19.5135px;
+    line-height: 14px;
+    
+    /* Neutral / Black */
+    
+    color: #212121;
+    text-decoration: none;
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+                    /* Hero Image */
+.heroImage{
+position: absolute;
+width: 680px;
+height: 680px;
+left: 720px;
+top: 131px;
+margin-right: 20px;
+
+/* Neutral / White */
+
+background: #FFFFFF;
+/* Neutral / Black */
+/* 
+border: 2px solid #212121; */
+}
